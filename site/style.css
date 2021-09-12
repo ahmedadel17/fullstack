@@ -1,0 +1,52 @@
+.displaynone{
+    display: none;
+}
+.display{
+    display: block;
+    
+}
+.border{
+    border-top-right-radius: 35%;
+    border-top-left-radius: 25%;
+    /* height: 300px; */
+}
+/* .cardimg{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+} */
+#popup2{
+    display: none;
+}
+#background{
+    background-color: teal !important;
+
+}
+.customizing{
+    width: 300px;
+    height: 300px;
+    border-radius: 25%;
+}
+#course_identity{
+position: fixed;
+left: 700px;
+top: 120px;
+border-radius: 25%;
+
+}
+/* #dark{ */
+    /* background-color: white;
+    color: black; */
+/* } */
+.darkmod{
+    background-color: black;
+    color: white;
+}
+.darkmod .card{
+    color: white;
+    background-color: black;
+}
+.whitemode{
+    background-color: blanchedalmond;
+    color: black;
+}
