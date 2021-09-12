@@ -14,7 +14,8 @@ second.addEventListener("click",() =>
 {
     fixed.classList.add("displaynone");
 second_c.classList.add("display");
-
+// second_c.classList.add("ratio ");
+// second_c.classList.add("ratio-16x9");
     
 })
 darkmode.addEventListener("click",() => 
