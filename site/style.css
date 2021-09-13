@@ -1,8 +1,12 @@
+body{
+    background-color: #889EAF;
+}
 .displaynone{
     display: none;
 }
 .display{
     display: block;
+    
     
 }
 .border{
@@ -47,6 +51,45 @@ border-radius: 25%;
     background-color: black;
 }
 .whitemode{
-    background-color: blanchedalmond;
+    background-color: #889EAF;
     color: black;
+}
+/* #third_c{
+    display: none;
+}
+#second_c{
+ display:none;   
+} */
+.card{
+    display: inline-block;
+    margin: 10px;
+}
+.sizing_card{
+    width: 250px;
+    height: 150px;
+    border-top-right-radius: 25%;
+   
+}
+/* card_div{
+    width: 400px !important;
+    height: 400px !important;
+} */
+.displayfixed{
+    position: fixed;
+    left:0px
+}
+#learn{
+    /* width: 500px; */
+    height: 500px;
+       color: #FED049;
+    position: relative;
+    top: 50px;
+}
+#learn img{
+width: 600px;
+}
+
+.newcolor{
+    background-color: black !important;
+    color: white !important;
 }
