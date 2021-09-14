@@ -4,29 +4,94 @@ var third_c =document.getElementById("third_c");
 var fourth_c =document.getElementById("fourth_c");
 var fifth_c =document.getElementById("fifth_c");
 var sixth_c =document.getElementById("sixth_c");
+var seventh_c=document.getElementById("seventh_c");
+var eights_c=document.getElementById("eights_c");
+var nineth_c=document.getElementById("nineth_c");
+var tenth_c=document.getElementById("tenth_c");
+var eleventh_c= document.getElementById("eleventh_c");
+var twelveth_c= document.getElementById("twelveth_c");
+var thirteenth_c= document.getElementById("thirteenth_c");
+var fourteenth_c=document.getElementById("fourteenth_c");
+var fifteenth_c=document.getElementById("fifteenth_c");
+var sixteenth_c=document.getElementById("sixteenth_c");
+var seventeenth_c= document.getElementById("seventeenth_c");
+var eightteens_c=document.getElementById("eightteens_c");
+var nineteenth_c=document.getElementById("nineteenth_c");
+var twentyth_c=document.getElementById('twentyth_c');
+var twentyone_c=document.getElementById("twentyone_c");
+var twentytwo_c=document.getElementById("twentytwo_c");
+
 var first =document.getElementById("first");
 var second =document.getElementById("second");
 var third =document.getElementById("third");
 var fourth= document.getElementById("fourth");
 var fifth= document.getElementById("fifth");
 var sixth= document.getElementById("sixth");
+var seventh=document.getElementById("seventh");
+var eights=document.getElementById("eights");
+var nineth=document.getElementById("nineth");
+var tenth=document.getElementById("tenth");
+var eleventh= document.getElementById("eleventh");
+var twelveth= document.getElementById("twelveth");
+var thirteenth= document.getElementById("thirteenth");
+var fourteenth=document.getElementById("fourteenth");
+var fifteenth=document.getElementById("fifteenth");
+var sixteenth=document.getElementById("sixteenth");
+var seventeenth= document.getElementById("seventeenth");
+var eightteens=document.getElementById("eightteens");
+var nineteenth=document.getElementById("nineteenth");
+var twentyth=document.getElementById('twentyth');
+var twentyone=document.getElementById("twentyone");
+var twentytwo=document.getElementById("twentytwo");
 var learn =document.getElementById("learn");
+
 first_c.classList.add("displaynone");
 second_c.classList.add("displaynone");
 third_c.classList.add("displaynone");
 fourth_c.classList.add("displaynone");
 fifth_c.classList.add("displaynone");
 sixth_c.classList.add("displaynone");
-
+seventh_c.classList.add("displaynone");
+eights_c.classList.add("displaynone");
+nineth_c.classList.add("displaynone");
+tenth_c.classList.add("displaynone");
+eleventh_c.classList.add("displaynone");
+twelveth_c.classList.add("displaynone");
+thirteenth_c.classList.add("displaynone");
+fourteenth_c.classList.add("displaynone");
+fifteenth_c.classList.add("displaynone");
+sixteenth_c.classList.add("displaynone");
+seventeenth_c.classList.add("displaynone");
+eightteens_c.classList.add("displaynone");
+nineteenth_c.classList.add("displaynone");
+twentyth_c.classList.add("displaynone");
+twentyone_c.classList.add("displaynone");
+twentytwo_c.classList.add("displaynone");
+// methods
 first.addEventListener("click",() => {
-    first_c.classList.remove("displaynone");
-    second_c.classList.add("displaynone");
+first_c.classList.remove("displaynone");
+second_c.classList.add("displaynone");
 third_c.classList.add("displaynone");
 fourth_c.classList.add("displaynone");
 fifth_c.classList.add("displaynone");
 sixth_c.classList.add("displaynone");
 learn.classList.add("displaynone");
-    
+seventh_c.classList.add("displaynone");
+eights_c.classList.add("displaynone");
+nineth_c.classList.add("displaynone");
+tenth_c.classList.add("displaynone");
+eleventh_c.classList.add("displaynone");
+twelveth_c.classList.add("displaynone");
+thirteenth_c.classList.add("displaynone");
+fourteenth_c.classList.add("displaynone");
+fifteenth_c.classList.add("displaynone");
+sixteenth_c.classList.add("displaynone");
+seventeenth_c.classList.add("displaynone");
+eightteens_c.classList.add("displaynone");
+nineteenth_c.classList.add("displaynone");
+twentyth_c.classList.add("displaynone");
+twentyone_c.classList.add("displaynone");
+twentytwo_c.classList.add("displaynone");
 })
 second.addEventListener("click",() => {
     second_c.classList.remove("displaynone");
@@ -36,7 +101,22 @@ second.addEventListener("click",() => {
     fifth_c.classList.add("displaynone");
     sixth_c.classList.add("displaynone");
     learn.classList.add("displaynone");
-
+    seventh_c.classList.add("displaynone");
+    eights_c.classList.add("displaynone");
+    nineth_c.classList.add("displaynone");
+    tenth_c.classList.add("displaynone");
+    eleventh_c.classList.add("displaynone");
+    twelveth_c.classList.add("displaynone");
+    thirteenth_c.classList.add("displaynone");
+    fourteenth_c.classList.add("displaynone");
+    fifteenth_c.classList.add("displaynone");
+    sixteenth_c.classList.add("displaynone");
+    seventeenth_c.classList.add("displaynone");
+    eightteens_c.classList.add("displaynone");
+    nineteenth_c.classList.add("displaynone");
+    twentyth_c.classList.add("displaynone");
+    twentyone_c.classList.add("displaynone");
+    twentytwo_c.classList.add("displaynone");
 })
 third.addEventListener("click",() => {
     third_c.classList.remove("displaynone");
@@ -45,22 +125,50 @@ third.addEventListener("click",() => {
     fourth_c.classList.add("displaynone");
     fifth_c.classList.add("displaynone");
    sixth_c.classList.add("displaynone");
-   
-    
+   seventh_c.classList.add("displaynone");
+   eights_c.classList.add("displaynone");
+
 
 learn.classList.add("displaynone");
-
+nineth_c.classList.add("displaynone");
+tenth_c.classList.add("displaynone");
+eleventh_c.classList.add("displaynone");
+twelveth_c.classList.add("displaynone");
+thirteenth_c.classList.add("displaynone");
+fourteenth_c.classList.add("displaynone");
+fifteenth_c.classList.add("displaynone");
+sixteenth_c.classList.add("displaynone");
+seventeenth_c.classList.add("displaynone");
+eightteens_c.classList.add("displaynone");
+nineteenth_c.classList.add("displaynone");
+twentyth_c.classList.add("displaynone");
+twentyone_c.classList.add("displaynone");
+twentytwo_c.classList.add("displaynone");
 })
 fourth.addEventListener("click",() => {
-    fourth_c.classList.remove("displaynone");
-    second_c.classList.add("displaynone");
-    first_c.classList.add("displaynone");
-    third_c.classList.add("displaynone");
-   fifth_c.classList.add("displaynone");
-   sixth_c.classList.add("displaynone");
-
-learn.classList.add("displaynone");
-    
+        fourth_c.classList.remove("displaynone");
+        second_c.classList.add("displaynone");
+        first_c.classList.add("displaynone");
+        third_c.classList.add("displaynone");
+        fifth_c.classList.add("displaynone");
+        sixth_c.classList.add("displaynone");
+        seventh_c.classList.add("displaynone");
+        learn.classList.add("displaynone");
+        eights_c.classList.add("displaynone");
+        nineth_c.classList.add("displaynone");
+        tenth_c.classList.add("displaynone");
+        eleventh_c.classList.add("displaynone");
+        twelveth_c.classList.add("displaynone");
+        thirteenth_c.classList.add("displaynone");
+        fourteenth_c.classList.add("displaynone");
+        fifteenth_c.classList.add("displaynone");
+        sixteenth_c.classList.add("displaynone");
+        seventeenth_c.classList.add("displaynone");
+        eightteens_c.classList.add("displaynone");
+        nineteenth_c.classList.add("displaynone");
+        twentyth_c.classList.add("displaynone");
+        twentyone_c.classList.add("displaynone");
+        twentytwo_c.classList.add("displaynone");
 })
 fifth.addEventListener("click",() => {
     fifth_c.classList.remove("displaynone");
@@ -70,6 +178,22 @@ fifth.addEventListener("click",() => {
     third_c.classList.add("displaynone");
     sixth_c.classList.add("displaynone");
     learn.classList.add("displaynone");
+    seventh_c.classList.add("displaynone");
+    eights_c.classList.add("displaynone");
+    nineth_c.classList.add("displaynone");
+    tenth_c.classList.add("displaynone");
+    eleventh_c.classList.add("displaynone");
+    twelveth_c.classList.add("displaynone");
+    thirteenth_c.classList.add("displaynone");
+    fourteenth_c.classList.add("displaynone");
+    fifteenth_c.classList.add("displaynone");
+    sixteenth_c.classList.add("displaynone");
+    seventeenth_c.classList.add("displaynone");
+    eightteens_c.classList.add("displaynone");
+    nineteenth_c.classList.add("displaynone");
+    twentyth_c.classList.add("displaynone");
+    twentyone_c.classList.add("displaynone");
+    twentytwo_c.classList.add("displaynone");
 })
 sixth.addEventListener("click",() => 
 {
@@ -80,18 +204,421 @@ sixth.addEventListener("click",() =>
     first_c.classList.add("displaynone");
     third_c.classList.add("displaynone");
     learn.classList.add("displaynone");
-    
+    seventh_c.classList.add("displaynone");
+    eights_c.classList.add("displaynone");
+    nineth_c.classList.add("displaynone");
+    tenth_c.classList.add("displaynone");
+    eleventh_c.classList.add("displaynone");
+    twelveth_c.classList.add("displaynone");
+    thirteenth_c.classList.add("displaynone");
+    fourteenth_c.classList.add("displaynone");
+    fifteenth_c.classList.add("displaynone");
+    sixteenth_c.classList.add("displaynone");
+    seventeenth_c.classList.add("displaynone");
+    eightteens_c.classList.add("displaynone");
+    nineteenth_c.classList.add("displaynone");
+    twentyth_c.classList.add("displaynone");
+    twentyone_c.classList.add("displaynone");
+    twentytwo_c.classList.add("displaynone");
 })
-// first.addEventListener("click",() => {
-//     first_c.classList.add("display");
-//     second_c.classList.add("displaynone");
-//     third_c.classList.add("displaynone");
-    
-// })
-// third_c.addEventListener("click",() => 
-// {
-
-// second_c.classList.add("displaynone");
-// first_c.classList.add("displaynone");
-// third_c.classList.remove("displaynone");
-// })
+seventh.addEventListener("click",() => {
+    seventh_c.classList.remove("displaynone");
+    first_c.classList.add("displaynone");
+    second_c.classList.add("displaynone");
+third_c.classList.add("displaynone");
+fourth_c.classList.add("displaynone");
+fifth_c.classList.add("displaynone");
+sixth_c.classList.add("displaynone");
+learn.classList.add("displaynone");
+eights_c.classList.add("displaynone");
+nineth_c.classList.add("displaynone");
+tenth_c.classList.add("displaynone");
+eleventh_c.classList.add("displaynone");
+twelveth_c.classList.add("displaynone");
+thirteenth_c.classList.add("displaynone");
+fourteenth_c.classList.add("displaynone");
+fifteenth_c.classList.add("displaynone");
+sixteenth_c.classList.add("displaynone");
+seventeenth_c.classList.add("displaynone");
+eightteens_c.classList.add("displaynone");
+nineteenth_c.classList.add("displaynone");
+twentyth_c.classList.add("displaynone");
+twentyone_c.classList.add("displaynone");
+twentytwo_c.classList.add("displaynone");
+})
+eights.addEventListener("click",() => {
+    first_c.classList.add("displaynone");
+    eights_c.classList.remove("displaynone");
+    second_c.classList.add("displaynone");
+third_c.classList.add("displaynone");
+fourth_c.classList.add("displaynone");
+fifth_c.classList.add("displaynone");
+sixth_c.classList.add("displaynone");
+learn.classList.add("displaynone");
+seventh_c.classList.add("displaynone");
+nineth_c.classList.add("displaynone");
+tenth_c.classList.add("displaynone");
+eleventh_c.classList.add("displaynone");
+twelveth_c.classList.add("displaynone");
+thirteenth_c.classList.add("displaynone");
+fourteenth_c.classList.add("displaynone");
+fifteenth_c.classList.add("displaynone");
+sixteenth_c.classList.add("displaynone");
+seventeenth_c.classList.add("displaynone");
+eightteens_c.classList.add("displaynone");
+nineteenth_c.classList.add("displaynone");
+twentyth_c.classList.add("displaynone");
+twentyone_c.classList.add("displaynone");
+twentytwo_c.classList.add("displaynone");
+})
+nineth.addEventListener("click",() => {
+    nineth_c.classList.remove("displaynone");
+    first_c.classList.add("displaynone");
+    second_c.classList.add("displaynone");
+third_c.classList.add("displaynone");
+fourth_c.classList.add("displaynone");
+fifth_c.classList.add("displaynone");
+sixth_c.classList.add("displaynone");
+learn.classList.add("displaynone");
+seventh_c.classList.add("displaynone");
+eights_c.classList.add("displaynone");
+tenth_c.classList.add("displaynone");
+eleventh_c.classList.remove("displaynone");
+twelveth_c.classList.add("displaynone");
+thirteenth_c.classList.add("displaynone");
+fourteenth_c.classList.add("displaynone");
+fifteenth_c.classList.add("displaynone");
+sixteenth_c.classList.add("displaynone");
+seventeenth_c.classList.add("displaynone");
+eightteens_c.classList.add("displaynone");
+nineteenth_c.classList.add("displaynone");
+twentyth_c.classList.add("displaynone");
+twentyone_c.classList.add("displaynone");
+twentytwo_c.classList.add("displaynone");
+})
+tenth.addEventListener("click",() => {
+    tenth_c.classList.remove("displaynone");
+    first_c.classList.add("dispalynone");
+    second_c.classList.add("displaynone");
+third_c.classList.add("displaynone");
+fourth_c.classList.add("displaynone");
+fifth_c.classList.add("displaynone");
+sixth_c.classList.add("displaynone");
+learn.classList.add("displaynone");
+seventh_c.classList.add("displaynone");
+eights_c.classList.add("displaynone");
+nineth_c.classList.add("displaynone");
+eleventh_c.classList.add("displaynone");
+twelveth_c.classList.add("displaynone");
+thirteenth_c.classList.add("displaynone");
+fourteenth_c.classList.add("displaynone");
+fifteenth_c.classList.add("displaynone");
+sixteenth_c.classList.add("displaynone");
+seventeenth_c.classList.add("displaynone");
+eightteens_c.classList.add("displaynone");
+nineteenth_c.classList.add("displaynone");
+twentyth_c.classList.add("displaynone");
+twentyone_c.classList.add("displaynone");
+twentytwo_c.classList.add("displaynone");
+})
+eleventh.addEventListener("click",() => {
+    eleventh_c.classList.remove("displaynone");
+    first_c.classList.add("displaynone");
+    second_c.classList.add("displaynone");
+third_c.classList.add("displaynone");
+fourth_c.classList.add("displaynone");
+fifth_c.classList.add("displaynone");
+sixth_c.classList.add("displaynone");
+learn.classList.add("displaynone");
+seventh_c.classList.add("displaynone");
+eights_c.classList.add("displaynone");
+nineth_c.classList.add("displaynone");
+tenth_c.classList.add("displaynone");
+twelveth_c.classList.add("displaynone");
+thirteenth_c.classList.add("displaynone");
+fourteenth_c.classList.add("displaynone");
+fifteenth_c.classList.add("displaynone");
+sixteenth_c.classList.add("displaynone");
+seventeenth_c.classList.add("displaynone");
+eightteens_c.classList.add("displaynone");
+nineteenth_c.classList.add("displaynone");
+twentyth_c.classList.add("displaynone");
+twentyone_c.classList.add("displaynone");
+twentytwo_c.classList.add("displaynone");
+})
+twelveth.addEventListener("click",() => {
+    twelveth_c.classList.remove("displaynone");
+    first_c.classList.add("displaynone");
+    second_c.classList.add("displaynone");
+    third_c.classList.add("displaynone");
+    fourth_c.classList.add("displaynone");
+    fifth_c.classList.add("displaynone");
+    sixth_c.classList.add("displaynone");
+    learn.classList.add("displaynone");
+    seventh_c.classList.add("displaynone");
+    eights_c.classList.add("displaynone");
+    nineth_c.classList.add("displaynone");
+    tenth_c.classList.add("displaynone");
+    eleventh_c.classList.add("displaynone");
+    thirteenth_c.classList.add("displaynone");
+    fourteenth_c.classList.add("displaynone");
+    fifteenth_c.classList.add("displaynone");
+    sixteenth_c.classList.add("displaynone");
+    seventeenth_c.classList.add("displaynone");
+    eightteens_c.classList.add("displaynone");
+    nineteenth_c.classList.add("displaynone");
+    twentyth_c.classList.add("displaynone");
+    twentyone_c.classList.add("displaynone");
+    twentytwo_c.classList.add("displaynone");
+    })
+thirteenth.addEventListener("click",() => {
+    thirteenth_c.classList.remove("displaynone");
+    first_c.classList.add("displaynone");
+    second_c.classList.add("displaynone");
+    third_c.classList.add("displaynone");
+    fourth_c.classList.add("displaynone");
+    fifth_c.classList.add("displaynone");
+    sixth_c.classList.add("displaynone");
+    learn.classList.add("displaynone");
+    seventh_c.classList.add("displaynone");
+    eights_c.classList.add("displaynone");
+    nineth_c.classList.add("displaynone");
+    tenth_c.classList.add("displaynone");
+    eleventh_c.classList.add("displaynone");
+    twelveth_c.classList.add("displaynone");
+    fourteenth_c.classList.add("displaynone");
+    fifteenth_c.classList.add("displaynone");
+    sixteenth_c.classList.add("displaynone");
+    seventeenth_c.classList.add("displaynone");
+    eightteens_c.classList.add("displaynone");
+    nineteenth_c.classList.add("displaynone");
+    twentyth_c.classList.add("displaynone");
+    twentyone_c.classList.add("displaynone");
+    twentytwo_c.classList.add("displaynone");
+})
+fourteenth.addEventListener("click",() => {
+    first_c.classList.add("displaynone");
+    fourteenth_c.classList.remove("displaynone");
+    second_c.classList.add("displaynone");
+    third_c.classList.add("displaynone");
+    fourth_c.classList.add("displaynone");
+    fifth_c.classList.add("displaynone");
+    sixth_c.classList.add("displaynone");
+    learn.classList.add("displaynone");
+    seventh_c.classList.add("displaynone");
+    eights_c.classList.add("displaynone");
+    nineth_c.classList.add("displaynone");
+    tenth_c.classList.add("displaynone");
+    eleventh_c.classList.add("displaynone");
+    twelveth_c.classList.add("displaynone");
+    thirteenth_c.classList.add("displaynone");
+    fifteenth_c.classList.add("displaynone");
+    sixteenth_c.classList.add("displaynone");
+    seventeenth_c.classList.add("displaynone");
+    eightteens_c.classList.add("displaynone");
+    nineteenth_c.classList.add("displaynone");
+    twentyth_c.classList.add("displaynone");
+    twentyone_c.classList.add("displaynone");
+    twentytwo_c.classList.add("displaynone");
+})
+fifteenth.addEventListener("click",() => {
+    fifteenth_c.classList.remove("displaynone");
+    first_c.classList.add("displaynone");
+    second_c.classList.add("displaynone");
+    third_c.classList.add("displaynone");
+    fourth_c.classList.add("displaynone");
+    fifth_c.classList.add("displaynone");
+    sixth_c.classList.add("displaynone");
+    learn.classList.add("displaynone");
+    seventh_c.classList.add("displaynone");
+    eights_c.classList.add("displaynone");
+    nineth_c.classList.add("displaynone");
+    tenth_c.classList.add("displaynone");
+    eleventh_c.classList.add("displaynone");
+    twelveth_c.classList.add("displaynone");
+    thirteenth_c.classList.add("displaynone");
+    fourteenth_c.classList.add("displaynone");
+    sixteenth_c.classList.add("displaynone");
+    seventeenth_c.classList.add("displaynone");
+    // eighteenth_c.classList.add("displaynone");
+    eightteens_c.classList.add("displaynone");
+    nineteenth_c.classList.add("displaynone");
+    twentyth_c.classList.add("displaynone");
+    twentyone_c.classList.add("displaynone");
+    twentytwo_c.classList.add("displaynone");
+})
+sixteenth.addEventListener("click",() => {
+    sixteenth_c.classList.remove("displaynone");
+    first_c.classList.add("displaynone");
+    second_c.classList.add("displaynone");
+    third_c.classList.add("displaynone");
+    fourth_c.classList.add("displaynone");
+    fifth_c.classList.add("displaynone");
+    sixth_c.classList.add("displaynone");
+    learn.classList.add("displaynone");
+    seventh_c.classList.add("displaynone");
+    eights_c.classList.add("displaynone");
+    nineth_c.classList.add("displaynone");
+    tenth_c.classList.add("displaynone");
+    eleventh_c.classList.add("displaynone");
+    twelveth_c.classList.add("displaynone");
+    thirteenth_c.classList.add("displaynone");
+    fourteenth_c.classList.add("displaynone");
+    fifteenth_c.classList.add("displaynone");
+    seventeenth_c.classList.add("displaynone");
+    eightteens_c.classList.add("displaynone");
+    nineteenth_c.classList.add("displaynone");
+    twentyth_c.classList.add("displaynone");
+    twentyone_c.classList.add("displaynone");
+    twentytwo_c.classList.add("displaynone");
+})
+seventeenth.addEventListener("click",() => {
+seventeenth_c.classList.remove("displaynone");
+first_c.classList.add("displaynone");
+second_c.classList.add("displaynone");
+third_c.classList.add("displaynone");
+fourth_c.classList.add("displaynone");
+fifth_c.classList.add("displaynone");
+sixth_c.classList.add("displaynone");
+learn.classList.add("displaynone");
+seventh_c.classList.add("displaynone");
+eights_c.classList.add("displaynone");
+nineth_c.classList.add("displaynone");
+tenth_c.classList.add("displaynone");
+eleventh_c.classList.add("displaynone");
+twelveth_c.classList.add("displaynone");
+thirteenth_c.classList.add("displaynone");
+fourteenth_c.classList.add("displaynone");
+fifteenth_c.classList.add("displaynone");
+sixteenth_c.classList.add("displaynone");
+eightteens_c.classList.add("displaynone");
+nineteenth_c.classList.add("displaynone");
+twentyth_c.classList.add("displaynone");
+twentyone_c.classList.add("displaynone");
+twentytwo_c.classList.add("displaynone");
+})
+eightteens.addEventListener("click",() => {
+    eightteens_c.classList.remove("displaynone");
+    first_c.classList.add("displaynone");
+    second_c.classList.add("displaynone");
+    third_c.classList.add("displaynone");
+    fourth_c.classList.add("displaynone");
+    fifth_c.classList.add("displaynone");
+    sixth_c.classList.add("displaynone");
+    learn.classList.add("displaynone");
+    seventh_c.classList.add("displaynone");
+    eights_c.classList.add("displaynone");
+    nineth_c.classList.add("displaynone");
+    tenth_c.classList.add("displaynone");
+    eleventh_c.classList.add("displaynone");
+    twelveth_c.classList.add("displaynone");
+    thirteenth_c.classList.add("displaynone");
+    fourteenth_c.classList.add("displaynone");
+    fifteenth_c.classList.add("displaynone");
+    sixteenth_c.classList.add("displaynone");
+    seventeenth_c.classList.add("displaynone");
+    nineteenth_c.classList.add("displaynone");
+    twentyth_c.classList.add("displaynone");
+    twentyone_c.classList.add("displaynone");
+    twentytwo_c.classList.add("displaynone");
+    })
+    nineteenth.addEventListener("click",() => {
+        nineteenth_c.classList.remove("displaynone");
+        first_c.classList.add("displaynone");
+        second_c.classList.add("displaynone");
+        third_c.classList.add("displaynone");
+        fourth_c.classList.add("displaynone");
+        fifth_c.classList.add("displaynone");
+        sixth_c.classList.add("displaynone");
+        learn.classList.add("displaynone");
+        seventh_c.classList.add("displaynone");
+        eights_c.classList.add("displaynone");
+        nineth_c.classList.add("displaynone");
+        tenth_c.classList.add("displaynone");
+        eleventh_c.classList.add("displaynone");
+        twelveth_c.classList.add("displaynone");
+        thirteenth_c.classList.add("displaynone");
+        fourteenth_c.classList.add("displaynone");
+        fifteenth_c.classList.add("displaynone");
+        sixteenth_c.classList.add("displaynone");
+        seventeenth_c.classList.add("displaynone");
+        eightteens_c.classList.add("displaynone");
+        twentyth_c.classList.add("displaynone");
+        twentyone_c.classList.add("displaynone");
+        twentytwo_c.classList.add("displaynone");
+        })
+        twentyth.addEventListener("click",() => {
+           twentyth_c.classList.remove("displaynone");
+           first_c.classList.add("displaynone");
+            second_c.classList.add("displaynone");
+            third_c.classList.add("displaynone");
+            fourth_c.classList.add("displaynone");
+            fifth_c.classList.add("displaynone");
+            sixth_c.classList.add("displaynone");
+            learn.classList.add("displaynone");
+            seventh_c.classList.add("displaynone");
+            eights_c.classList.add("displaynone");
+            nineth_c.classList.add("displaynone");
+            tenth_c.classList.add("displaynone");
+            eleventh_c.classList.add("displaynone");
+            twelveth_c.classList.add("displaynone");
+            thirteenth_c.classList.add("displaynone");
+            fourteenth_c.classList.add("displaynone");
+            fifteenth_c.classList.add("displaynone");
+            sixteenth_c.classList.add("displaynone");
+            seventeenth_c.classList.add("displaynone");
+            eightteens_c.classList.add("displaynone");
+            nineteenth_c.classList.add("displaynone");
+            twentyone_c.classList.add("displaynone");
+            twentytwo_c.classList.add("displaynone");
+            })
+            twentyone.addEventListener("click",() => {
+                twentyone_c.classList.remove("displaynone");
+                first_c.classList.add("displaynone");
+                second_c.classList.add("displaynone");
+                third_c.classList.add("displaynone");
+                fourth_c.classList.add("displaynone");
+                fifth_c.classList.add("displaynone");
+                sixth_c.classList.add("displaynone");
+                learn.classList.add("displaynone");
+                seventh_c.classList.add("displaynone");
+                eights_c.classList.add("displaynone");
+                nineth_c.classList.add("displaynone");
+                tenth_c.classList.add("displaynone");
+                eleventh_c.classList.add("displaynone");
+                twelveth_c.classList.add("displaynone");
+                thirteenth_c.classList.add("displaynone");
+                fourteenth_c.classList.add("displaynone");
+                fifteenth_c.classList.add("displaynone");
+                sixteenth_c.classList.add("displaynone");
+                seventeenth_c.classList.add("displaynone");
+                eightteens_c.classList.add("displaynone");
+                nineteenth_c.classList.add("displaynone");
+                twentyth_c.classList.add("displaynone");
+                twentytwo_c.classList.add("displaynone");
+                })
+                    twentytwo.addEventListener("click",() => {
+                    twentytwo_c.classList.remove("displaynone");
+                    first_c.classList.add("displaynone")
+                    second_c.classList.add("displaynone");
+                    third_c.classList.add("displaynone");
+                    fourth_c.classList.add("displaynone");
+                    fifth_c.classList.add("displaynone");
+                    sixth_c.classList.add("displaynone");
+                    learn.classList.add("displaynone");
+                    seventh_c.classList.add("displaynone");
+                    eights_c.classList.add("displaynone");
+                    nineth_c.classList.add("displaynone");
+                    tenth_c.classList.add("displaynone");
+                    eleventh_c.classList.add("displaynone");
+                    twelveth_c.classList.add("displaynone");
+                    thirteenth_c.classList.add("displaynone");
+                    fourteenth_c.classList.add("displaynone");
+                    fifteenth_c.classList.add("displaynone");
+                    sixteenth_c.classList.add("displaynone");
+                    seventeenth_c.classList.add("displaynone");
+                    eightteens_c.classList.add("displaynone");
+                    nineteenth_c.classList.add("displaynone");
+                    twentyth_c.classList.add("displaynone");
+                    twentyone_c.classList.add("displaynone");
+                    })
