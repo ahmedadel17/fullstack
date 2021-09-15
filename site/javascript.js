@@ -19,10 +19,12 @@ first.addEventListener("click",() => {
 second.addEventListener("click",() => {
     second_c.classList.remove("displaynone");
     first_c.classList.add("displaynone");
-    third_c.classList.add("displaynone");})
+    third_c.classList.add("displaynone");
+    learn.classList.add("displaynone");})
+
     third.addEventListener("click",() => {
-        third_c.classList.remove("displaynone");
-        second_c.classList.add("displaynone");
-        first_c.classList.add("displaynone")
-        learn.classList.add("displaynone");
+    third_c.classList.remove("displaynone");
+    second_c.classList.add("displaynone");
+    first_c.classList.add("displaynone")
+    learn.classList.add("displaynone");
         ;})

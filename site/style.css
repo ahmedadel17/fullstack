@@ -1,0 +1,45 @@
+.class{
+    display: inline-block;
+}
+.popup{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: teal;
+    
+}
+.content{
+    position: relative;
+    left: 100px;
+    top: 200px;
+    background-color: aqua;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10%;
+}
+.coloring_visa{
+    background-color: black;
+    color: white;
+    /* border-radius: %; */
+    width: 200px;
+    height: 50px;
+}
+.displaynone{
+    display: none;
+}
+.thanks{
+    position: relative;
+    left: 100px;
+   
+    bottom: 200px;
+    background-color: aqua;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10%;
+    
+}
+
