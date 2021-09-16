@@ -43,7 +43,7 @@
     
 }
 .newadjustment{
-    margin-top: 150px;
+    margin-top: 110px;
 }
 #learn{
     background-size: cover;
@@ -61,4 +61,38 @@ iframe{
         width: 285px;
         height: 200px;
     }
+/* .coloring{
+    background-color: aqua;
+    position: relative;
+    
+    
+} */
+.dark{
+    background-color: black;
+    color: white !important;
 
+}
+.dark a:hover {
+    color: teal;
+
+}
+.color{
+    background-color: teal !important;
+}
+.white{
+    background-color: white ;
+}
+.radius{
+ border-radius: 20px !important;
+ width: 100px;
+}
+/* .dropdown-toggle{
+    background-color: white;
+    color: yellow; */
+/* } */
+.modeblack{
+    color: white !important;
+}
+#mode{
+    color: tomato;
+}

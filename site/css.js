@@ -1,3 +1,16 @@
+var darkmodebutton=document.getElementById("darkmodebutton");
+var darkmode=document.getElementById("darkmode");
+var offcanvasbody=document.querySelector(".offcanvas-body");
+var nav_link=document.querySelectorAll(".nav-link");
+var offcanvasheader=document.querySelector(".offcanvas-header");
+var offcanvas_title=document.querySelector(".offcanvas-title ");
+var btn_close=document.querySelector(".btn-close"); 
+var navbar_toggler=document.querySelector(".navbar-toggler");
+var navbar_toggler_icon=document.querySelector(".navbar-toggler-icon");
+var dropdown_toggle=document.querySelector(".dropdown-toggle "); 
+var dropdown=document.getElementById("dropdown");
+var navbar=document.querySelector(".navbar");
+var mode =document.querySelector(".mode");
 var first_c = document.getElementById("first_c");
 var second_c = document.getElementById("second_c");
 var third_c = document.getElementById("third_c");
@@ -45,6 +58,27 @@ var twentyone = document.getElementById("twentyone");
 var twenty_two = document.getElementById("twenty_two");
 var twentythree = document.getElementById("twentythree");
 var learn = document.getElementById("learn");
+darkmodebutton.addEventListener("click",() => {
+    darkmode.classList.toggle("dark");
+    offcanvasbody.classList.toggle("dark");
+    offcanvasheader.classList.toggle("dark");
+    offcanvas_title.classList.toggle("dark");
+    btn_close.classList.toggle("color");
+    navbar_toggler_icon.toggle("color");
+    dropdown_toggle.classlist.toggle("color");
+    navbar.classlist.toggle("dark");
+    navbar_toggler.classList.toggle("color");
+    mode.classList.toggle("modeblack");
+    mode.classList.remove("mode");
+})
+nav_link.forEach(Item => {
+    darkmodebutton.addEventListener("click",() => {
+    //    Item.classList.remove("nav-link") 
+       Item.classList.toggle("dark"); 
+        
+    })
+    
+});
 const displaynotfn = () => {
     learn.classList.add("displaynone");
     first_c.classList.add("displaynone");
