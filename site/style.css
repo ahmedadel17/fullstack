@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 body{
     background-color:blanchedalmond;
 }
@@ -101,4 +102,7 @@ iframe{
 }
 .dropdown-item{
     color: black;
+}h2{
+    font-family: 'Bebas Neue', cursive;
 }
+

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 body{
     background-color: white;
 }
@@ -61,3 +62,13 @@ a:hover{
 .nav-link:hover{
     color: red;
 }
+.color{
+    background-color: crimson;
+    color: white;
+}
+h2,h5{
+    font-family: 'Bebas Neue', cursive;
+}
+    h5{
+        text-align: center;
+    }
