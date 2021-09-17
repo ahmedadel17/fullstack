@@ -1,3 +1,6 @@
+body{
+    background-color:blanchedalmond;
+}
 .class{
     display: inline-block;
 }
@@ -57,10 +60,7 @@ iframe{
    
     margin: 20px;
 }
-    .sizing_card{
-        width: 285px;
-        height: 200px;
-    }
+   
 /* .coloring{
     background-color: aqua;
     position: relative;
@@ -68,9 +68,12 @@ iframe{
     
 } */
 .dark{
-    background-color: black;
+    background-color: black !important;
     color: white !important;
 
+}
+.dark .dropdown-item{
+    color: white;
 }
 .dark a:hover {
     color: teal;
@@ -95,4 +98,7 @@ iframe{
 }
 #mode{
     color: tomato;
+}
+.dropdown-item{
+    color: black;
 }

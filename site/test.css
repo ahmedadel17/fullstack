@@ -1,0 +1,63 @@
+body{
+    background-color: white;
+}
+.dark{
+background-color: black;
+}
+.dark .card{
+    background-color: black;
+    color: white;
+}
+.dark .carousel-item{
+    background-color: black;
+}
+.dark a{
+    color: white !important;
+
+}
+.dark a:hover{
+    color: crimson !important ;
+}
+.dark .nav-link:hover{
+    color:#FF4C29 ;
+
+}
+.dark .dropdown-menu{
+    background-color: black;
+    color: white;
+}
+.class{
+    display: inline-block;
+}
+.sizing_card{
+    width: 285px;
+    height: 200px;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: cornflowerblue;
+}
+.dropdown-menu{
+    background-color: cornflowerblue;
+}
+.btn{
+    background-color: cornflowerblue;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.orange{
+    background-color: #FF4C29;
+}
+.labny{
+    background-color: #00C1D4;
+}
+.yellow{
+    background-color: #FFF338;
+}
+.nav-link:hover{
+    color: red;
+}
